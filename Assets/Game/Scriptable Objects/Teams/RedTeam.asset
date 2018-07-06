@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3106dbc9017d4b4bbb32480f4784590, type: 3}
+  m_Name: RedTeam
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 0, b: 0.20983982, a: 1}
+  wands:
+  - {fileID: 160236, guid: f05ca6457085e0f428373f98413918ea, type: 2}
+  - {fileID: 170008, guid: a5132481e1eaddb4e93b7cd8def7b311, type: 2}
+  - {fileID: 173016, guid: 6af1ada55fbfe1c4f8e894084451d932, type: 2}
+  - {fileID: 180010, guid: 2e52ab7b27833a546a0f62de87d98a15, type: 2}
+  - {fileID: 164894, guid: af9661a118d78d34498796cfeae92dfb, type: 2}

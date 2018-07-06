@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3106dbc9017d4b4bbb32480f4784590, type: 3}
+  m_Name: BlueTeam
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 0.8560481, b: 1, a: 1}
+  wands:
+  - {fileID: 171316, guid: 14a1089dfc8b2f949937da50bf38bc90, type: 2}
+  - {fileID: 115338, guid: d9a3ec0dc2aae4e43af8b98e0eeb7662, type: 2}
+  - {fileID: 121470, guid: 289062a2b299f714980c64eaaa5623c5, type: 2}
+  - {fileID: 107642, guid: 408d43af6e2bac94da16afdd10f63f0f, type: 2}
+  - {fileID: 129130, guid: 7e4fe71e8701ed147ac48614044e1c01, type: 2}
