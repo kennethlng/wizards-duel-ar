@@ -55,6 +55,8 @@ public class Projectile : MonoBehaviour
 
 	void OnCollisionEnter (Collision _col)
 	{
+		Debug.Log(_col.gameObject.name);
+
 		using (RTData data = RTData.Get ()) 
 		{
 			data.SetInt(1, ownerPeerId);
