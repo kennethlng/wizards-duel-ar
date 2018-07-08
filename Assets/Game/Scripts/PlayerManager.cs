@@ -27,7 +27,7 @@ public class PlayerManager : MonoBehaviour
 		cameraTrackerComponent.Setup();
 
 		widget.GetComponentInChildren<Text>().text = displayName;
-		widget.GetComponentInChildren<Image>().color = team.color;
+		widget.GetComponentInChildren<Text>().color = team.color;
 	}
 
 	public void DisableAttack ()

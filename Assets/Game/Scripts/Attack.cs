@@ -42,9 +42,9 @@ public class Attack : MonoBehaviour
 	public void AttachRandomWand ()
 	{
 		GameObject wand = Instantiate(team.wands[Random.Range(0, team.wands.Length)], abilityRoot.transform);
-		wand.transform.localPosition = new Vector3 (0, -0.85f, -0.8f);
+		wand.transform.localPosition = new Vector3 (0, -0.5f, -0.7f);
 		wand.transform.localEulerAngles = new Vector3 (45, 0, 0);
-		wand.transform.localScale = new Vector3 (3, 3, 3);
+		wand.transform.localScale = new Vector3 (2.5f, 2.5f, 2.5f);
 	}
 
 	void Update () 
