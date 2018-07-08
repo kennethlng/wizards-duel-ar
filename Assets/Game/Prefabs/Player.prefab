@@ -1910,6 +1910,7 @@ MonoBehaviour:
   attackComponent: {fileID: 0}
   cameraTrackerComponent: {fileID: 0}
   widget: {fileID: 1960250927162076}
+  bodyRoot: {fileID: 1412996065569040}
 --- !u!114 &114992469106732518
 MonoBehaviour:
   m_ObjectHideFlags: 1

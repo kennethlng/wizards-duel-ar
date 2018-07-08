@@ -45,9 +45,9 @@ public class UIManager : MonoBehaviour
 		snackbarText.gameObject.SetActive(true);
 		hostButton.GetComponentInChildren<Text>().text = "Host";
 		hostButton.interactable = true;
-		joinButton.GetComponentInChildren<Text>().text = "Resolve";
+		joinButton.GetComponentInChildren<Text>().text = "Join";
 		joinButton.interactable = true;
-		snackbarText.text = "Please select Host or Resolve to continue";
+		snackbarText.text = "Please select Host or Join to continue";
 		joinInputRoot.SetActive(false);
 		spectateButton.gameObject.SetActive(false);
 		endGameButton.gameObject.SetActive(false);
@@ -70,7 +70,7 @@ public class UIManager : MonoBehaviour
 	{
 		hostButton.GetComponentInChildren<Text>().text = "Cancel";
 		hostButton.interactable = true;
-		joinButton.GetComponentInChildren<Text>().text = "Resolve";
+		joinButton.GetComponentInChildren<Text>().text = "Join";
 		joinButton.interactable = false;
 
 		if (string.IsNullOrEmpty(snackbarText))
@@ -93,7 +93,7 @@ public class UIManager : MonoBehaviour
 	{
 		hostButton.GetComponentInChildren<Text>().text = "Cancel";
 		hostButton.interactable = false;
-		joinButton.GetComponentInChildren<Text>().text = "Resolve";
+		joinButton.GetComponentInChildren<Text>().text = "Join";
 		joinButton.interactable = false;
 		snackbarText.text = "Attempting to host anchor...";
 		joinInputRoot.SetActive(false);

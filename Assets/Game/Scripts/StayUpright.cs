@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StayOnGround : MonoBehaviour {
+public class StayUpright : MonoBehaviour {
 
 	Vector3 newPos;
 	Vector3 newRot;
@@ -24,7 +24,7 @@ public class StayOnGround : MonoBehaviour {
 
 		
 		// Keep the body collider level with the cloud anchor's Y position
-		newPos = gameObject.transform.parent.position - transform.forward;
+		newPos = gameObject.transform.parent.position - transform.forward / 2;
 		//newPos.y = GameManager.Instance().anchorTransform.position.y;
 		transform.position = newPos;
 	}

@@ -20,6 +20,7 @@ public class LaunchProjectile : MonoBehaviour
 				ProjectilePool.GetProjectilePool()[i].spawnPos = gameObject.transform;
 				ProjectilePool.GetProjectilePool()[i].trailColor = projectileTrailColor;
 				ProjectilePool.GetProjectilePool()[i].ownerPeerId = projectileOwnerPeerId;
+				Physics.IgnoreCollision(ProjectilePool.GetProjectilePool()[i].gameObject.GetComponent<Collider>(), GetComponentInParent<PlayerManager>().bodyRoot.GetComponentInChildren<Collider>());
 
 				// Initialize the projectile
 				ProjectilePool.GetProjectilePool()[i].Reset();

@@ -13,6 +13,7 @@ public class PlayerManager : MonoBehaviour
 	[HideInInspector] public Attack attackComponent;
 	[HideInInspector] public CameraTracker cameraTrackerComponent;
 	public GameObject widget;
+	public GameObject bodyRoot;
 
 	public void Setup ()
 	{
