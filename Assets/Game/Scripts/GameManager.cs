@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour
 	public string matchShortCode;
 	public string matchGroup;
 
+    public void TakeDamage(int _damage)
+    {
+        
+    }
+
 	void Start ()
 	{
 		// MatchFoundMessage listener. We are going to reference a method in this class to be called when this listener is called.
