@@ -1,1 +1,1 @@
-# WizardsDuelAR
+# Wizard's Duel AR
