@@ -1,4 +1,4 @@
-# Wizard's Duel AR
+# wizards-duel-ar
 
 Wizard’s Duel AR is a cross-platform, multiplayer AR brawler for players with ARKit- and ARCore-supported smartphones. Two or more players engage in real-time combat by blasting each other with magic and defending themselves with shields. There are no win conditions or rules. Players can host new duels and join or spectate existing duels.
 
