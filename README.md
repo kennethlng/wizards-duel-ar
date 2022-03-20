@@ -4,7 +4,7 @@ Wizard’s Duel AR is a cross-platform, multiplayer AR brawler for players with 
 
 This is a prototype I developed showcasing what you can do combining augmented reality with real-time multiplayer networking. 
 
-The project is not currently supported. 
+> The project is not currently supported. 
 
 ## Stack
 
