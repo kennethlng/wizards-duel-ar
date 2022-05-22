@@ -9,7 +9,3 @@ This is a prototype I developed showcasing what you can do combining augmented r
 ## Stack
 
 I used Unity for the game engine, [GameSparks](https://docs.gamesparks.com/tutorials/real-time-services/) for real-time multiplayer networking, and [Google Cloud Anchors](https://developers.google.com/ar/develop/java/cloud-anchors/overview-android) for shared augmented reality experiences. 
-
-## Questions
-
-If you have any issues or questions, message me on [Twitter](https://twitter.com/kennethlng) or email me hello@kennethlng.com.
